@@ -1,4 +1,4 @@
-xively.setKey( "YOUR API KEY HERE" );  
+xively.setKey( "UNlTns1Yd5nPeXNYk1Xq3zNlpP0Du2stvtL0WSq5QaJ5asS7" );  
 
 var startOfYesterday = moment().subtract("day", 1).startOf('day');
 var endOfYesterday = moment().startOf('day');
@@ -13,7 +13,7 @@ var query = {
   limit: 1000 
 };
 
-xively.datastream.history( "106267", "NO2_00-04-a3-37-cc-cb_0", query, loadData);  
+xively.datastream.history( "2134151370", "NO2_00-04-a3-37-cc-cb_0", query, loadData);  
 
 function loadData(data) {  
   var unit = data.unit.label;
