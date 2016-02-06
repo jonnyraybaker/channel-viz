@@ -12,7 +12,7 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= 'UNlTns1Yd5nPeXNYk1Xq3zNlpP0Du2stvtL0WSq5QaJ5asS7', // Unique master Xively API key to be used as a default
+	var defaultKey		= 'AYe1u7LWrHWNxd9Ft5qWvq0wcapSGd6DnBNDUtuEcc1zR8nH', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [2134151370], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Home Power Monitoring', // Replaces Xively logo in the header
 		dataDuration	= '12hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
